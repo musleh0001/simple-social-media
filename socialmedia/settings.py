@@ -1,4 +1,5 @@
 from pathlib import Path
+import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -132,3 +133,6 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = "developer.muslehuddin@gmail.com"
 EMAIL_HOST_PASSWORD = "qkuodcckfvmpbhgt"
+
+
+django_heroku.settings(locals())

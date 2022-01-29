@@ -10,6 +10,7 @@ psycopg2 = "*"
 django-crispy-forms = "*"
 pillow = "*"
 gunicorn = "*"
+django-heroku = "*"
 
 [dev-packages]
 black = "*"
