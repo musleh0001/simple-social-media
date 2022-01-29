@@ -9,6 +9,7 @@ django-seed = "*"
 psycopg2 = "*"
 django-crispy-forms = "*"
 pillow = "*"
+gunicorn = "*"
 
 [dev-packages]
 black = "*"
